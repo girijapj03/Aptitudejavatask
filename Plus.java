@@ -3,7 +3,7 @@ class Plus{
 	  int row = 4;
 		for(int i=0; i<=row; i++) {
 		for(int j=0; j<=row; j++) {
- if(i==1 || j==row/2 || j==1|| i==row)
+ if( j==row/2 || i==row/2)
 System.out.print(i+""+j +" ");
 else
 System.out.print("   ");
